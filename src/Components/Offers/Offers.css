@@ -1,0 +1,128 @@
+.offers{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background:linear-gradient(180deg,#e1ffea22, #47fdae 60%);
+}
+.offers-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+}
+.offers-left h1{
+    color: #171717;
+    font-size: 50px;
+    line-height: 1.5;
+}
+.offers-left p{
+    color: #171717;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.offers-left button{
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.offers-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.offers-right img{
+    height: 445px;
+}
+
+@media (max-width: 1200px) {
+    .offers {
+        width: 90%;
+        padding: 0px 60px;
+        height: auto;
+    }
+    .offers-left {
+        margin-left: 60px;
+    }
+    .offers-left h1 {
+        font-size: 42px;
+    }
+    .offers-left p {
+        font-size: 16px;
+    }
+    .offers-left button {
+        width: 180px;
+        height: 48px;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .offers-right img {
+        height: 380px;
+    }
+}
+@media (max-width: 800px) {
+    .offers {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .offers-left {
+        margin-left: 0;
+        align-items: center;
+    }
+    .offers-left h1 {
+        font-size: 36px;
+    }
+    .offers-left p {
+        font-size: 16px;
+    }
+    .offers-left button {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .offers-right img {
+        height: 300px;
+        margin-top: 20px;
+        padding-right: 25%;
+    }
+}
+@media (max-width: 480px) {
+    .offers {
+        width: 95%;
+        padding: 20px;
+    }
+    .offers-left h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .offers-left p {
+        font-size: 14px;
+    }
+    .offers-left button {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .offers-right img {
+        height: 220px;
+        padding-right: 20%;
+    }
+}

@@ -1,0 +1,31 @@
+.bredcrums {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: flex-start;
+    padding-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 800px) {
+    .bredcrums {
+        padding-left: 100px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .bredcrums {
+        padding-left: 20px; 
+        font-size: 12px;     
+        flex-wrap: wrap;      
+        gap: 5px;
+    }
+    .bredcrums img {
+        height: 8px; 
+    }
+}
